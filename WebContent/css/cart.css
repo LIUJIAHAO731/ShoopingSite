@@ -1,0 +1,85 @@
+
+/* cart.css */
+
+/* Header */
+.header01 {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.header01-logo {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.header01-nav {
+    margin-top: 20px;
+}
+
+.header01-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header01-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* cart.css */
+
+/* Cart Title */
+.cart-title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Cart Table */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-table th {
+    background-color: #f5f5f5;
+}
+
+/* Buttons */
+.btn-delete,
+.btn-clear,
+.btn-purchase {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-clear {
+    background-color: #ff9800;
+    margin-top: 20px;
+}
+
+.btn-purchase {
+    background-color: #4caf50;
+}
+
+.btn-delete:hover,
+.btn-clear:hover,
+.btn-purchase:hover {
+    background-color: #d32f2f;
+}
